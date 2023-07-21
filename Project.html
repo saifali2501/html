@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            margin-top: 10px;
+            margin-left: 15px;
+          
+            display: none;
+        }
+        .boxx{
+     
+            display: block;
+            
+        }
+ input{
+
+   
+    margin: 5px;
+  
+ }
+ .date{
+    display: none;
+ }
+ .datee{
+    display: block;
+ }
+ 
+ .slot{
+    display: none;
+ }
+ .slott{
+    display: block;
+ }
+    .menu{
+        display: none;
+    }  
+    .menuu{
+        display: block;
+    }
+    .time{
+        display: none;
+    }
+    .timee{
+        display: block;
+    }
+    </style>
+</head>
+<body>
+    <h1>Welcomr to my shop</h1>
+    <form action="">
+ 1.<input type="button" value="Choice of booking" class="Booking"><br>
+
+ <div class="box">
+    1.<input type="button" value="Full day booking" id="full">
+      <br>2.<input type="button" value="Half day booking" id="half"> 
+      <br>3.<input type="button" value="Hourly day booking" id="hourly">
+<div class="menu">
+    Option:- 
+    <br><input type="radio" width="10px" height="10px" name="name">Breakfast <br>
+    <input type="radio" width="10px" height="10px" name="name">Lunch <br>
+    <input type="radio" width="10px" height="10px" name="name">Dinner<br>
+
+  
+
+</div>
+ </div>
+ 
+ 2.<input type="text" style="width: 200px; height: 25px;" placeholder="Please Enter the name"><br>
+ 3.<input type="email" style="width: 200px; height: 25px;"placeholder="Please enter the Email"><br>
+ 4.<input type="number" style="width: 200px; height: 25px;"placeholder="Please enter No of Person"><br>
+ 
+ <div class="date">
+ 5.<input type="date" style="width: 200px; height: 25px;"><br>
+</div>
+<div class="time">
+ 6.<input type="time" name="" id="">
+</div>
+<div class="slot">
+ 7 .<input type="submit" style="width: 200px; height: 25px;" value="Slot"><br>
+
+</div>
+
+
+ 
+
+
+</form>
+<script>
+    let bok=document.querySelector(".Booking")
+    let box=document.querySelector(".box")
+    bok.addEventListener("click",function(){
+   box.classList.toggle("boxx")
+    })
+  
+  let book= document.getElementById("full")
+  let date=document.querySelector(".date")
+  book.addEventListener("click",function(){
+    date.classList.add("datee")
+  })
+
+let book1=document.getElementById("half")
+let slot=document.querySelector(".slot")
+book1.addEventListener("click",function(){
+    date.classList.add("datee")
+    slot.classList.add("slott")
+})
+
+let book3=document.getElementById("hourly")
+let menu =document.querySelector(".menu")
+let time=document.querySelector(".time")
+book3.addEventListener("click",function(){
+    date.classList.add("datee")
+    slot.classList.add("slott")
+    time.classList.add("timee")
+    menu.classList.add("menuu")
+
+})
+</script>
+    </body>
+</html>
