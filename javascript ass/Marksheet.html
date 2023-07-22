@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .page{
+            border: 2px solid black;
+            margin: 50px auto;
+            width: 500px;
+            padding: 20px;
+        }
+        .page h1{
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        .page .box h3{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .row {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           padding: 10px 0px;
+           align-items: center;
+           
+        }
+         .result{
+            display: flex;
+            justify-content: space-evenly;
+         }
+         .row .col button{
+            width: 120px;
+            color: white;
+            height: 40px;
+            font-size: 18px;
+            font-weight: 700;
+            background-color: blue;
+         }          
+ 
+        input[type="text"],select{
+           height: 25px;
+           width: 250px;
+           padding: 2px 5px;
+        }
+        textarea{
+            width: 250px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>marksheet for information technology</h1>
+        <div class="box">
+        <h3>Enter marks</h3>
+        <form action="#">
+            <div class="row">
+                <div class="col">
+                    <label for="">C Language</label>
+                </div>
+                <div class="col">
+                    <input type="text" id="C_language">
+                </div>
+                 
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="">C++ Language</label>
+                </div>
+                     <div class="col"> 
+                    <input type="text" id="C++">
+                    </div>
+                </div>
+                
+
+                <div class="row">
+                    <div class="col">
+                        <label for="">Database</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="data">
+                    </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="">HTML</label>
+                        </div>
+                        <div class="col">
+                            <input type="text" id="html">
+                        </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="">CSS</label>
+                            </div>
+                             <div class="col">
+                                <input type="text" id="Css">
+                            </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <label for="">php</label>
+                                </div>
+                                <div class="col">
+                                    <input type="text" id="php">
+                                </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="">Core java</label>
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" id="Core">
+                                    </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            
+                                        </div>
+                                        <div class="col">
+                                            <button onclick="return userinput()">click</button>
+                                        </div>
+                                        </div>
+                                    <div class="result">
+                                       <div class="div">
+                                    <p>Total is : <span id="msg"></span>/350</p> 
+                                    </div>
+                                    <div class="div">
+                                   <p>Per: <span id="divid"></span>%</p>
+                                   </div>
+                                   </div>
+        </form>
+    </div>
+    </div>
+<script src="mark.js"></script>
+</body>
+</html>
+
+<script>
+    function minimum(){
+        let n1 = document.getElementById("num1").value;
+        let n2 = document.getElementById("num2").value;
+
+        if (n1 < n2){
+            document.getElementById("msg").innerText = "1st Number is minimum"
+        }else{
+            document.getElementById("msg").innerText = "2nd Number is minimum"
+        }
+             
+
+    }
+</script>

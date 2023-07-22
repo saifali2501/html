@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body style="border: 2px solid black; width: fit-content; padding: 20px;">
+    <form action="#">
+        Enter 1st Numbar : <input type="text" id="num1">
+        <br><br>
+        Enter 2st Numbar : <input type="text" id="num2">
+        <br><br>
+        <button onclick="return addition()">+</button>
+
+         <button onclick="return sub()">-</button>
+
+          <button onclick="return multi()">*</button>
+
+           <button onclick="return divition()">/</button>
+
+           <p>Answer is : <span id="msg"></span></p>
+
+    </form>
+
+    <script>
+        function addition(){
+            let n1 = document.getElementById("num1").value
+            let n2 = document.getElementById("num2").value
+             let msg = document.getElementById("msg")
+
+            let sum = Number(n1) + Number(n2);
+             msg.innerHTML = sum;
+             return false
+        }
+        function sub(){
+            let n1 = document.getElementById("num1").value;
+            let n2 = document.getElementById("num2").value;
+             let msg = document.getElementById("msg")
+
+            let sum = Number(n1) - Number(n2);
+             msg.innerHTML = sum;
+             return false
+
+
+        }
+
+         function multi(){
+            let n1 = document.getElementById("num1").value;
+            let n2 = document.getElementById("num2").value;
+             let msg = document.getElementById("msg")
+
+            let sum = Number(n1) * Number(n2);
+             msg.innerHTML = sum;
+             return false
+
+
+        }
+
+          function divition(){
+            let n1 = document.getElementById("num1").value;
+            let n2 = document.getElementById("num2").value;
+             let msg = document.getElementById("msg")
+
+            let sum = Number(n1) / Number(n2);
+             msg.innerHTML = sum;
+             return false
+
+
+        }
+    </script>
+</body>
+</html>
