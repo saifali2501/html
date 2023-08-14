@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+  }
+ 
+  
+.homepage {
+    background-color: rgb(17, 16, 16);
+    
+  }
+  
+  .homepage .main-box {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    
+  }
+  
+  .homepage .main-box .left {
+    flex: 1;
+    
+    
+  }
+  .homepage .main-box .left .text {
+    text-align: end;
+    margin-right: 30px;
+    padding: 70px 0px;
+    
+  }
+  
+  .homepage .main-box .left h1 {
+    font-size: 45px;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .homepage .main-box .left h1 span {
+    border-right: 4px solid red;
+    margin-left: 10px;
+  }
+  
+  .homepage .main-box .left .p1 {
+    font-size: 30px;
+    color: rgb(233, 27, 27);
+    padding-bottom: 15px;
+  }
+  .homepage .main-box .left .p2 {
+    font-size: 23px;
+    color: gray;
+    padding-bottom: 30px;
+    
+    
+  }
+  .homepage .main-box .left .p3 {
+    font-size: 30px;
+    color: rgb(233, 27, 27);
+    padding-bottom: 15px;
+  }
+  .homepage .main-box .left .p4 {
+    font-size: 23px;
+    color: gray;
+    padding-bottom: 30px;
+  }
+  
+  .homepage .main-box .left .p5 {
+    font-size: 30px;
+    color: rgb(233, 27, 27);
+    padding-bottom: 15px;
+  }
+  .homepage .main-box .left .p6 {
+    font-size: 23px;
+    color: gray;
+    padding-bottom: 30px;
+    
+  }
+  
+  .homepage .main-box .right {
+    flex: 1;
+  }
+  .homepage .main-box .right img{
+    height: 100%;
+    width: 100%;
+    
+  }
+  .homepage .main-box{
+      position: relative;
+      
+  }
+  .homepage .main{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      left:48%;
+      top: 20 0px;
+      bottom:0px;
+      gap: 100px;
+  }
+  .homepage .main span{
+      font-size: 14px;
+      border: 2px solid gray;
+      padding: 8px;
+      color: rgb(227, 88, 88);
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+  }
+  /* ====================================== */
+  

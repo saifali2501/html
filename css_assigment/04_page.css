@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+  }
+  
+  
+  /* ====================================== */
+  
+  
+  .ourteam{
+    background-image: url(1308285-cool-ipad-wallpapers-2048x1536-macbook.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 659px;
+    width: 100%;
+    position: relative;
+   
+    
+    
+  }
+  
+  .ourteam .text1 {
+    
+    text-align: center;
+    padding-top: 150px;
+    
+    }
+    .ourteam .text1 h1{
+      padding-bottom: 15px;
+      font-size: 30px;
+      color: white;
+    }
+    .ourteam .text1 p{
+      font-size: 18px;
+      color: rgb(223, 217, 217);
+    }
+  
+    .ourteam .div1 .pic{
+      position: absolute;
+      top: 50px !important;
+      
+      
+    }
+    .ourteam .div1 .pic .imgg1{
+    
+      position: absolute;
+      left: 538px;
+      right: 0px;
+      bottom: 0px;
+      top:315px;
+      
+    } 
+    .ourteam .div1 .pic .imgg1 img{
+      height: 30px;
+      width: 30px;
+      border: 2px solid rgb(192, 45, 45);
+      border-radius: 50%;
+    
+    }
+    .ourteam .div1 .pic .imgg2{
+      
+      position: absolute;
+      left: 760px;
+      right: 0px;
+      bottom: 0px;
+      top:237px;
+      
+    }
+    .ourteam .div1 .pic .imgg2 img{
+      height: 30px;
+      width: 30px;
+      border: 2px solid rgb(144, 34, 34);
+      border-radius: 50%;
+    
+    }
+    .ourteam .div1 .pic .imgg3{
+    
+      position: absolute;
+      left: 351px;
+      right: 0px;
+      bottom: 0px;
+      top:390px;
+      
+    } 
+     .ourteam .div1 .pic .imgg3 img{
+      height: 30px;
+      width: 30px;
+      border: 2px solid rgb(144, 34, 34);
+      border-radius: 50%;
+    
+    }
+    .ourteam .div1 .pic .imgg4{
+    
+      position: absolute;
+      left: 1000px;
+      right: 0px;
+      bottom: 0px;
+      top:230px;
+      
+    } 
+    .ourteam .div1 .pic .imgg4 img{
+      height: 30px;
+      width: 30px;
+      border: 2px solid rgb(144, 34, 34);
+      border-radius: 50%;
+    
+    
+    } 
+    
+  
+   .ourteam .div1 .pic .boder{
+    position: absolute;
+    bottom: -138px;
+    left: 15px;
+    border-left: 1px solid white;
+    height: 110px;
+  
+  }
+  .ourteam .div1 .pic .txt{
+    color:white ;
+    width: 300px;
+    padding-top: 83px;
+    text-align: center;
+    margin-left: -130px;
+  }
+  .ourteam .div1 .pic .txt h1{ 
+    font-size: 34px;
+    padding-top: 14px;
+     
+  }
+  .ourteam .div1 .pic .txt p{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
